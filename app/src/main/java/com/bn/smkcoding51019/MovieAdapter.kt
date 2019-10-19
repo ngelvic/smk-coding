@@ -12,7 +12,7 @@ import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.sdk27.coroutines.onClick
 
 class MovieAdapter(
-    val list: List<ResultsItem?>?,
+    val list: List<MovieModel>,
     val context: Context
 ) : RecyclerView.Adapter<MovieAdapter.ViewHolder>() {
 
